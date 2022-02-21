@@ -6,4 +6,16 @@ Here we will estimate a linear model of log(*wage*) as a function of education a
 
 where *yob* is year of birth and *sob* is state of birth.
 
+Education, *educ*, is thought to be potentially endogenous:
+* Education might suffer from measurement error.
+* Unobserved ``ability'' might affect the ``mental cost'' of education and labor market productivity.
+* Heterogenous returns to education could lead ``high effect'' agents to choose more education.
 
+Quarter of birth, *qob*, is a potential instrument as it is not a choice variable, and may shift educational attainment due to compulsory schooling laws.
+
+We have multiple choices for the functional form of the instrument:
+* One instrument: *qob*.
+* Three instruments: 1{*qob* = 2}, 1{*qob* = 3}, 1{*qob* = 4}.
+* 180 instruments: Add interactions of the above with 1{*yob* = *t*} and 1{*sob* = *s*}.
+
+As for data, we will use about 330,000 observations from 'AK91'.
