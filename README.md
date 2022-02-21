@@ -8,8 +8,8 @@ where *yob* is year of birth and *sob* is state of birth.
 
 Education, *educ*, is thought to be potentially endogenous:
 * Education might suffer from measurement error.
-* Unobserved ``ability'' might affect the ``mental cost'' of education and labor market productivity.
-* Heterogenous returns to education could lead ``high effect'' agents to choose more education.
+* Unobserved "ability" might affect the "mental cost" of education and labor market productivity.
+* Heterogenous returns to education could lead "high effect" agents to choose more education.
 
 Quarter of birth, *qob*, is a potential instrument as it is not a choice variable, and may shift educational attainment due to compulsory schooling laws.
 
