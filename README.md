@@ -1,4 +1,4 @@
-# IV Empirical Example: Return to Education ([Angrist & Kruger, 1991](https://doi.org/10.2307/2937954))
+# IV Empirical Example: Return to Education ([Angrist & Krueger, 1991](https://doi.org/10.2307/2937954))
 
 Here we will estimate a linear model of log(*wage*) as a function of education and additional control variables:
 
