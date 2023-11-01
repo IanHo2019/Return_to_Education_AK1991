@@ -1,4 +1,4 @@
-# An Empirical Paper using IV: [Angrist & Krueger, 1991](https://doi.org/10.2307/2937954)
+# An Empirical Paper using IV: [Angrist & Krueger (1991)](https://doi.org/10.2307/2937954)
 [Angrist & Krueger (1991)](https://doi.org/10.2307/2937954) is one of the best-known papers using instrumental variables (IV) to do empirical research. Here I try my best to replicate their main results. The datasets are available in [Angrist Data Archive](https://economics.mit.edu/people/faculty/josh-angrist/angrist-data-archive) and what I use is `NEW7080.rar` (containing the original 1970 and 1980 census data with all covariates). My cleaned data can be obtained by request ([ianho0815@outlook.com](mailto:ianho0815@outlook.com?subject=[GitHub]%20AK1991)). 
 
 ## Research Question and Challenge
