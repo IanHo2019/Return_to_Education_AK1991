@@ -29,7 +29,7 @@ To check the relevance condition, the authors use visualization and OLS regressi
 <br>
 <img src="./Figures/Figure_2.svg" title="Years of Education and Season of Birth for Men Born 1940-1949, 1980 Census" alt="Years of Education and Season of Birth for Men Born 1940-1949, 1980 Census" style="width:80%"/>
 <br>
-<img src="./Figures/Figure_4.svg" title="Years of Schooling (Deviation from Moving Average) and Season of Birth for Men Born 1930-1949, 1980 Census" alt="Years of Schooling (Deviation from Moving Average) and Season of Birth for Men Born 1930-1949, 1980 Census" style="width:70%"/>
+<img src="./Figures/Figure_4.svg" title="Years of Schooling (Deviation from Moving Average) and Season of Birth for Men Born 1930-1949, 1980 Census" alt="Years of Schooling (Deviation from Moving Average) and Season of Birth for Men Born 1930-1949, 1980 Census" style="width:80%"/>
 
 This phenomenon appeared due to two reasons:
   1. Admission of US schools typically requires students have turned age 6 by January 1 of the year in which he/she enters school. Consequently, students born earlier in the year are slightly older than others when they enter schools. For example, if *A* was born on 2000 Jan 15 (quarter 1) and *B* was born on 2002 Nov 15 (quarter 4), then both *A* and *B* are allowed to enter a school in 2007. However, on 2007 Jan 1, *A* is 6.96 years old while *B* is 6.13 years old.
