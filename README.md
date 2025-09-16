@@ -8,8 +8,11 @@ then the estimate of $\beta_1$ is very likely to be biased because the exogeneit
 
 ## Empirical Strategy
 Angrist & Krueger (1991) tried to resolve the endogeneity issue by using some instruments for education. Their two-stage least squares (TSLS) model is
+
 $$\ln W_i = X_i \beta + \sum_c Y_{ic} \xi_c + \rho E_i + \mu_i$$
+
 $$E_i = X_i \pi + \sum_c Y_{ic} \delta_c + \sum_c \sum_j Y_{ic} Q_{ij} \theta_{jc} + \epsilon_i$$
+
 where
   * $W_i$ is individual $i$'s weekly wage.
   * $Y_{ic}$ is a dummy variable equaling 1 if individual $i$ was born in year $c$ and 0 otherwise.
@@ -34,6 +37,7 @@ To check the relevance condition, the authors use visualization and OLS regressi
 This phenomenon appeared due to two reasons:
   1. Admission of US schools typically requires students have turned age 6 by January 1 of the year in which he/she enters school. Consequently, students born earlier in the year are slightly older than others when they enter schools. For example, if *A* was born on 2000 Jan 15 (quarter 1) and *B* was born on 2002 Nov 15 (quarter 4), then both *A* and *B* are allowed to enter a school in 2007. However, on 2007 Jan 1, *A* is 6.96 years old while *B* is 6.13 years old.
   2. Many states in the US enacted the compulsory schooling laws (requiring students stay in school until they reach a certain age, usually 16, 17, or 18). As a result, those students born earlier in the year reach the certain age earlier, so they are allowed to quit schooling earlier and then their years of attained education are lower.
+
 ## Main Findings
 Angrist & Krueger (1991) found that their TSLS estimates were close to the OLS estimates. For example, in the model using 1920-1929 cohort and without covariates, both OLS-estimated and TSLS-estimated return to education are close to 0.08.
 
