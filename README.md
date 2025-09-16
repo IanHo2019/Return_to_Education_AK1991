@@ -1,4 +1,4 @@
-# An Empirical Paper using IV: [Angrist & Krueger (1991)](https://doi.org/10.2307/2937954)
+# An Empirical Paper Using IV: [Angrist & Krueger (1991)](https://doi.org/10.2307/2937954)
 [Angrist & Krueger (1991)](https://doi.org/10.2307/2937954) is one of the best-known papers using instrumental variables (IV) to do empirical research. Here I try my best to replicate their main results. The datasets are available in [Angrist Data Archive](https://economics.mit.edu/people/faculty/josh-angrist/angrist-data-archive) and what I use is `NEW7080.rar` (containing the original 1970 and 1980 census data with all covariates). My cleaned data can be obtained by request ([ianho0815@outlook.com](mailto:ianho0815@outlook.com?subject=[GitHub]%20AK1991)). 
 
 ## Research Question and Challenge
@@ -34,7 +34,6 @@ To check the relevance condition, the authors use visualization and OLS regressi
 This phenomenon appeared due to two reasons:
   1. Admission of US schools typically requires students have turned age 6 by January 1 of the year in which he/she enters school. Consequently, students born earlier in the year are slightly older than others when they enter schools. For example, if *A* was born on 2000 Jan 15 (quarter 1) and *B* was born on 2002 Nov 15 (quarter 4), then both *A* and *B* are allowed to enter a school in 2007. However, on 2007 Jan 1, *A* is 6.96 years old while *B* is 6.13 years old.
   2. Many states in the US enacted the compulsory schooling laws (requiring students stay in school until they reach a certain age, usually 16, 17, or 18). As a result, those students born earlier in the year reach the certain age earlier, so they are allowed to quit schooling earlier and then their years of attained education are lower.
-
 ## Main Findings
 Angrist & Krueger (1991) found that their TSLS estimates were close to the OLS estimates. For example, in the model using 1920-1929 cohort and without covariates, both OLS-estimated and TSLS-estimated return to education are close to 0.08.
 
